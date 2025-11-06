@@ -44,11 +44,16 @@ A plataforma foi desenvolvida com foco em **HTML5 semântico, acessibilidade e r
 
 ---
 
-## 📷 Telas do Projeto    
+## 📸 Telas do Projeto
 
-- Página Inicial (`index.html`)  
-- Página Adote um Amigo (`adote.html`)  
-- Página de Cadastro (`cadastroVoluntario.html`)  
+- **Página Inicial (`index.html`)**
+  ![Página Inicial](./imagens/paginaInicial.png)
+
+- **Página Adote um Amigo (`adote.html`)**
+  ![Página Adote um Amigo](./imagens/paginaAdocao.png)
+
+- **Página de Cadastro (`cadastroVoluntario.html`)**
+  ![Página de Cadastro](./imagens/paginaCadastro.png)
 
 ---
 
