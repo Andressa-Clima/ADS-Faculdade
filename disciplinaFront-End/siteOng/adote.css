@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    background-color: #f9d0ce;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===== LOGO E TÍTULO ===== */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: nowrap;
+    max-width: 300px;
+}
+
+.logo-text {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4a3f35;
+    margin: 0;
+    white-space: nowrap;
+}
+
+/* ===== CABEÇALHO ===== */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #F3EBD8;
+    padding: 10px 30px;
+}
+
+header img {
+    width: 230px; 
+    height: auto;
+}
+
+/* ===== MENU ===== */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 90px; 
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4a3f35;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #F297A0;
+}
+
+/* ===== CONTEÚDO PRINCIPAL ===== */
+.main-content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #F297A0;
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.about-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4a3f35;
+    margin: 0;
+}
+
+/* ===== SEÇÃO COM FOTO E TEXTO ===== */
+.pet-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #F3EBD8;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 8px #4a3f35(74, 63, 53, 0.1);
+}
+
+.pet-section:first-child {
+    gap: 1px;
+}
+
+
+.pet-section.reverse {
+    flex-direction: row-reverse;
+    gap: 20px; 
+}
+
+.pet-image {
+    flex: 1;
+    max-width: 45%;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pet-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.pet-info {
+    flex: 1;
+    padding: 10px;
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+    background-color: #F297A0;
+    text-align: center;
+    padding: 45px 0;
+    font-size: 13px;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 0px;
+}
+
+footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    aspect-ratio: 1 / 1;
+}
