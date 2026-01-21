@@ -18,7 +18,3 @@ Contar animais por raça
 - [x] Repositório GitHub organizado
 - [x] README.md com instruções básicas
 - [x] Integração com modelo lógico anterior
-
-## 🎯 **Versão Simplificada para Entrega**
-
-Esta versão mantém todos os requisitos principais com o mínimo de exemplos necessários, facilitando a correção e focando no essencial.
